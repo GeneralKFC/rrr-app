@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+.HeadRightProfile_container{
+display: flex;
+width: auto;
+height: 100%;
+align-items: center;
+gap: 20px;
+}
+.HeadRightProfile_User_nameSurname{
+display: flex;
+width: auto;
+color: var(--default--text--color);
+font-family: Rowdies;
+font-size: var(--default--FontSize--text);
+font-weight: var(--default--FontWeigth--text);
+cursor: pointer;
+}
+.HeadRightProfile_User_Img{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}

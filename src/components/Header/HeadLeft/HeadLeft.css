@@ -1,0 +1,6 @@
+.HeadLeft{
+    display: flex;
+    width: auto;
+    height: 100%;
+    gap: 20px;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+.HeadLeftSearch_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.HeadLeftSearch_Text{
+    display: flex;
+    color: var(--default--text--color);
+    font-family: Rowdies;
+    font-size: 35px;
+    font-weight: var(--default--FontWeigth--text);
+}
