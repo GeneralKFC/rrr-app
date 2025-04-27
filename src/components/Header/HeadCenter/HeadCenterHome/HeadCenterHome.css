@@ -1,0 +1,16 @@
+.HeadCenterHome_container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+width: 40px;
+height: 40px;
+cursor: pointer;
+background: var(--default--bg-bg);
+border-radius: 5px;
+
+}
+.HeadCenterHome_container:hover{
+    background: var(--default--bg-hover);
+}
