@@ -1,0 +1,16 @@
+:root{
+    --default--text--color: #000;
+    --default--textHover--color:#f7f7f7;
+    --default--bg--blocks:#fff;
+    --default--bg-bg:#f7f7f7;
+    --default--bg-hover:#c0c189;
+    --default--padding:  5px 20px;
+    --default--FontSize--Logo:35px;
+    --default--FontSize--text:20px;
+    --default--FontWeigth--text:500;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
