@@ -3,10 +3,15 @@
     --default--textHover--color:#f7f7f7;
     --default--bg--blocks:#fff;
     --default--bg-bg:#f7f7f7;
+    --default--border--color:rgb(205, 205, 205);
     --default--bg-hover:#c0c189;
     --default--padding:  5px 20px;
+    --default--padding--small:5px;
+    --padding--main:20px 40px 0px 40px;
     --default--FontSize--Logo:35px;
     --default--FontSize--text:20px;
+    --default--FontSize--select:16px;
+    --default--FontSize--text--SoSmall:10px;
     --default--FontWeigth--text:500;
 }
 *{

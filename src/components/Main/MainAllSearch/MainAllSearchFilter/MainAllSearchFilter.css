@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+.MainAllSearchFilter_container{
+    display: flex;
+    width: 200px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0px 0px 5px;
+    border-top:2px solid var(--default--border--color) ;
+    border-left:2px solid var(--default--border--color) ;
+    border-bottom:2px solid var(--default--border--color) ;
+}
+.MainAllSearchFilter_select_Filter_options{
+    display: flex;
+    font-family: Rowdies;
+    width: 100%;
+    height: 100%;
+    border-radius:3px;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--default--FontSize--select);
+    color: var(--default--text--color);
+}
+.MainAllSearchFilter_select_Filter_options:hover{
+    background: var(--default--bg-hover);
+}
+.MainAllSearchFilter_select{
+display: flex;
+cursor: pointer;
+background: var(--default--bg--blocks);
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+position: relative;
+border-radius: 5px 0px 0px 5px;
+}
+.MainAllSearchFilter_options{
+display: flex;
+flex-direction: column;
+width: 200px;
+padding: 5px;
+background: var(--default--bg--blocks);
+position: absolute;
+z-index: 2;
+top: 50px;
+gap: 10px;
+left: 0px;
+}
+.MainAllSearchFilter_select_options{
+    display: flex;
+    cursor: pointer;
+    color:var(--default--text--color);
+    font-family: Rowdies;
+    width: 100%;
+    height: 100%;
+    font-size: var(--default--FontSize--select);
+    padding: 5px;
+    border-radius: 2px;
+}
+.MainAllSearchFilter_select_options:hover{
+background: var(--default--bg-hover);
+}
+.MainAllSearchFilter_filtered_options{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    width: auto;
+    min-width: 200px;
+    min-height: 40px;
+    height: auto;
+    gap: 10px;
+    background: var(--default--bg--blocks);
+    top: calc(20px + 56px);
+    left: 50px;
+    position: absolute;
+    padding: var(--default--padding--small);
+    border-radius: 0px 0px 5px 5px;
+    z-index: 1;
+}
+.MainAllSearchFilter_filtered_options_Gorilllaz{
+    display: flex;
+    color:var(--default--text--color);
+    font-family: Rowdies;
+    font-size: var(--default--FontSize--text--SoSmall);
+    align-items: center;
+
+}

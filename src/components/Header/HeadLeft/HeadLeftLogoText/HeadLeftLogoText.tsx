@@ -5,7 +5,7 @@ function HeadLeftLogoText(){
         <div className="HeadLeftSearch_container">
 
         <h1 className="HeadLeftSearch_Text">
-            GORILA^BANANA
+            GORILLA^BANANA
         </h1>
 
         </div>

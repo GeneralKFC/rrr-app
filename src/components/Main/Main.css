@@ -1,0 +1,9 @@
+.Main_container{
+    display: flex;
+    position: absolute;
+    width: calc(100% - 200px - 300px);
+    height: calc(100% - (56px) - 20px);
+    top: calc(56px );
+    padding: var(--padding--main);
+    left: 200px;
+}

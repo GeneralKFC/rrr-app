@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+.LeftSideProfile_container{
+    display: flex;
+    width: calc(200px - 40px);
+    height: 30px;
+    border: 1px solid var(--default--border--color);
+    border-radius: 5px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.LeftSideProfile_container:hover{
+    background: var(--default--bg-hover);
+    border:none;
+}
+.LeftSideProfile_profile{
+    display: flex;
+    color: var(--default--text--color);
+    font-family: Rowdies;
+    font-size: var(--default--FontSize--text);
+}
