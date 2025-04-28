@@ -1,4 +1,5 @@
 import "./HeadLeft.css";
+import React from 'react'
 import HeadLeftLogo from "./HeadLeftLogo/HeadleftLogo";
 import HeadLeftLogoText from "./HeadLeftLogoText/HeadLeftLogoText";
 function HeadLeft(){

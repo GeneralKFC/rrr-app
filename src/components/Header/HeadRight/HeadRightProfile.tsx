@@ -1,5 +1,5 @@
 import "./HeadRightProfile.css"
-
+import React from 'react'
 function HeadRightProfile(){
     return(
         <div className="HeadRightProfile_container">

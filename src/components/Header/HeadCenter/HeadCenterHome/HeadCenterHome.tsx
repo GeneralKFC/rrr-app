@@ -1,5 +1,6 @@
 import "./HeadCenterHome.css";
 import 'boxicons';
+import React from 'react'
 function HeadCenterHome(){
     return(
         <div className="HeadCenterHome_container">

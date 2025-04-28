@@ -1,4 +1,5 @@
 import "./Main.css"
+import React from 'react'
 import MainAllSearch from "./MainAllSearch/MainAllSearch.tsx"
 function Main(){
 return(

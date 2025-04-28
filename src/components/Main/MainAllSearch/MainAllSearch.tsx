@@ -1,4 +1,5 @@
 import "./MainAllSearch.css"
+import React from 'react'
 import MainAllSearchFilter from "./MainAllSearchFilter/MainAllSearchFilter"
 import MainAllSInputButton from "./MainAllSearchInput+Button/MainAllSInput+Button"
 function MainAllSearch(){

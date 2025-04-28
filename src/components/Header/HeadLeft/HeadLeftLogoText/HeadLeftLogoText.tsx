@@ -1,5 +1,5 @@
 import "./HeadLeftLogoText.css"
-
+import React from 'react'
 function HeadLeftLogoText(){
     return(
         <div className="HeadLeftSearch_container">

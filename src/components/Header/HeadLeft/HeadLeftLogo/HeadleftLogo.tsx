@@ -1,5 +1,5 @@
 import "./HeadLeftLogo.css"
-
+import React from 'react'
 function HeadLeftLogo(){
     return(
 

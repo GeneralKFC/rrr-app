@@ -1,4 +1,5 @@
 import "./HeadCenter.css"
+import React from 'react'
 import HeadCenterHome from "./HeadCenterHome/HeadCenterHome"
 function HeadCenter(){
     return(

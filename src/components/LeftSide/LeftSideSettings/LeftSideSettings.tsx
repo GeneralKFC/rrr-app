@@ -1,4 +1,5 @@
 import "./LeftSideSettings.css"
+import React from 'react'
 function LeftSideSettings(){
 return(
     <div className="LeftSideSettings_container">

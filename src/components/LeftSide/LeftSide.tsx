@@ -1,4 +1,5 @@
 import "./LeftSide.css"
+import React from 'react'
 import LeftSideProfile from "./LeftSideProfile/LeftSideProfile"
 import LeftSideSettings from "./LeftSideSettings/LeftSideSettings"
 import LeftSideFavorite from "./LeftSideFavorite/LeftSideFavorite"
