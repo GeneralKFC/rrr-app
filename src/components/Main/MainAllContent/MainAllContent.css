@@ -1,0 +1,9 @@
+.MainAllContent_container{
+    display: flex;
+    width: calc(100%);
+    height: calc(100% - 56px - 45px);
+    border-radius:5px;
+    background: var(--default--bg--blocks);
+    padding: var(--default--padding--main);
+    margin:45px auto 0px auto;
+}

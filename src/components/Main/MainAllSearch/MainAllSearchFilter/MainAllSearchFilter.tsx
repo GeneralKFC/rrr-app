@@ -2,10 +2,10 @@ import {  useEffect, useState } from "react"
 import React from 'react'
 import "./MainAllSearchFilter.css"
 function MainAllSearchFilter(){
-    const [selectOpt,setSelectOpt]=useState(false);
-    const [GorBan,setGorBan]=useState(()=>localStorage.getItem("Gor&&Ban")==="true");
-    const [Banana,setBanana]=useState(()=>localStorage.getItem("Banana")==="true");
-    const [Gorilla,setGorilla]=useState(()=>localStorage.getItem("Gorilla")==="true");
+    const [selectOpt,setSelectOpt]=useState<boolean>(false);
+    const [GorBan,setGorBan]=useState<boolean>(()=>localStorage.getItem("Gor&&Ban")==="true");
+    const [Banana,setBanana]=useState<boolean>(()=>localStorage.getItem("Banana")==="true");
+    const [Gorilla,setGorilla]=useState<boolean>(()=>localStorage.getItem("Gorilla")==="true");
     const Select=()=>{
         if(selectOpt){
             setSelectOpt(false);

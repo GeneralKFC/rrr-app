@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+.MainAllSInputButton_container{
+    display: flex;
+    width: 350px;
+    height: 46px;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    border-top: 2px solid var(--default--border--color);
+    border-right: 2px solid var(--default--border--color);
+    border-bottom: 2px solid var(--default--border--color);
+}
+.MainAllSInputButton_background_input{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    background: var(--default--bg--input);;
+    position: relative;
+}
+.MainAllSInputButton_background_input::before{
+    content:"";
+    display: flex;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    background: var(--default--bg--input);
+    z-index: 4;
+    transform: skew(20deg);
+}
+.MainAllSInputButton_background_input::after{
+    content:"";
+    display: flex;
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    background: var(--default--bg--input);
+    z-index: 4;
+    transform: skew(20deg);
+}
+.MainAllSInputButton_input{
+    display: flex;
+    color: var(--default--text--color);
+    font-size: var(--default--FontSize--text);
+    font-family: Rowdies;
+    width: 250px;
+    padding: var(--default--FontSize--text--SoSmall);
+    height: 100%;
+    border: none;
+    z-index: 5;
+    outline:none;
+    background:transparent;
+}
+.MainAllSInputButton_button{
+    display: flex;
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.MainAllSInputButton_button:hover{
+    background: var(--default--bg-hover);
+}
+

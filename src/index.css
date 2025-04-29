@@ -5,8 +5,11 @@
     --default--bg-bg:#f7f7f7;
     --default--border--color:rgb(205, 205, 205);
     --default--bg-hover:#c0c189;
+    --default--bg--input:#c9ffa0;
+    --default--bg--main:#a9bca9;
     --default--padding:  5px 20px;
     --default--padding--small:5px;
+    --default--padding--main:5px 20px 0px 20px;
     --padding--main:20px 40px 0px 40px;
     --default--FontSize--Logo:35px;
     --default--FontSize--text:20px;

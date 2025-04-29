@@ -1,0 +1,85 @@
+[{
+    "id":1,
+    "content":"img",
+    "gorilla":true,
+    "banan":true, 
+    "url":"https://st.depositphotos.com/1635726/3753/i/950/depositphotos_37532499-stock-photo-a-gorilla-male-silverback-leader.jpg"
+},
+{
+    "id":2, 
+    "content":"img",
+    "gorilla":true,
+    "banan":true, 
+    "url":"https://comments.ua/img/publications/850x478/20180414231801.jpg"
+},
+{
+    "id":3, 
+    "content":"img",
+    "gorilla":true,
+    "banan":true, 
+    "url":"https://animals.pibig.info/uploads/posts/2023-04/1680522429_animals-pibig-info-p-gorilla-mango-zhivotnie-instagram-5.jpg"
+},
+{
+    "id":4, 
+    "content":"img",
+    "gorilla":true,
+    "banan":false, 
+    "url":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Male_silverback_Gorilla.JPG"
+},
+{
+    "id":5, 
+    "content":"img",
+    "gorilla":true,
+    "banan":false, 
+    "url":"https://i.bigenc.ru/resizer/resize?sign=fjD2JErLTjDcu959zGBsZA&filename=vault/d2665b380240df07ef06e4e0fafcf827.webp&width=1200"
+},
+{
+    "id":6, 
+    "content":"img",
+    "gorilla":true,
+    "banan":false, 
+    "url":"https://naked-science.ru/wp-content/uploads/2022/08/foto-gorilly.jpg"
+},
+{
+    "id":7, 
+    "content":"img",
+    "gorilla":false,
+    "banan":true, 
+    "url":"https://static.wikia.nocookie.net/fnaf-fanon-animatronics/images/4/40/%D0%91%D0%B0%D0%BD%D0%B0%D0%BD.png/revision/latest?cb=20190614113143&path-prefix=ru"
+},
+{
+    "id":8, 
+    "content":"img",
+    "gorilla":false,
+    "banan":true, 
+    "url":"https://www.online.ua/static/content/thumbs/430x268/b/24/rcvk3w-3d38161fcec445ec9c4ef561220ea24b.jpg"
+},
+{
+    "id":9, 
+    "content":"img",
+    "gorilla":false,
+    "banan":true, 
+    "url":"https://img.tsn.ua/cached/064/tsn-135859377404ec64163c97d964721c31/thumbs/x/1a/60/bef69d175dacc5f4e71fa3b7a4ea601a.jpeg"
+},
+{
+    "id":10, 
+    "content":"video",
+    "gorilla":true,
+    "banan":true, 
+    "url":"https://www.youtube.com/watch?v=FeWrQ8V7g9g"
+},
+{
+    "id":11, 
+    "content":"video",
+    "gorilla":true,
+    "banan":false, 
+    "url":"https://www.youtube.com/watch?v=H3StRyjtM4A"
+},
+{
+    "id":12, 
+    "content":"video",
+    "gorilla":false,
+    "banan":true, 
+    "url":"https://www.youtube.com/watch?v=gsZfueGslWI"
+}
+]
