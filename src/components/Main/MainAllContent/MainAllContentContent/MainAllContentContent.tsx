@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
 import { useState } from "react";
-import Content from "./types";
+import {Content} from "./types";
 import "./MainAllContentContent.css";
 const BazeUrl="https://gist.githubusercontent.com/GeneralKFC/510f0715bddf79a4ba8426c536987603/raw/bf02ca6d1077543968be428892ef88ad0c8d5811/Gorilla&BananaJSON.json"
 function MainAllContentContent(){
