@@ -1,12 +1,15 @@
 :root{
     --default--text--color: #000;
     --default--textHover--color:#f7f7f7;
+    --default--coins--color:#e3dc55;
     --default--bg--blocks:#fff;
+    --default--bg--upgrade:#be9420;
     --default--bg-bg:#f7f7f7;
     --default--border--color:rgb(205, 205, 205);
     --default--bg-hover:#c0c189;
     --default--bg--input:#c9ffa0;
     --default--bg--main:#a9bca9;
+    --default--bg-coins:#5ac568;
     --default--padding:  5px 20px;
     --default--padding--small:5px;
     --default--padding--main:5px 20px 0px 20px;

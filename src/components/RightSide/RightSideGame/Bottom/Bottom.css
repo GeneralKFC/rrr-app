@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+.Bottom_container{
+    display: flex;
+    background: var(--default--bg--upgrade);
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Bottom_improvement{
+    display: flex;
+    color: var(--default--coins--color);
+    font-family:Rowdies ;
+    font-size: var(--default--FontSize--text);
+    font-weight: var(--default--FontWeigth--text);
+}
+.Bottom_Click{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}

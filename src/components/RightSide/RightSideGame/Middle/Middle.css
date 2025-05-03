@@ -1,0 +1,32 @@
+.Middle_container{
+width: 100%;
+height: calc(100% - 50px);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Middle_center{
+display: flex;
+width: 150px;
+height: 150px;
+align-items: center;
+justify-content: center;
+}
+.Middle_img_noClick{
+    display: flex;
+    width: 210px;
+    height: 210px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.Middle_img_noClick.zoomed{
+    transform: scale(1.1);
+}
+.Middle_img_Click{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
