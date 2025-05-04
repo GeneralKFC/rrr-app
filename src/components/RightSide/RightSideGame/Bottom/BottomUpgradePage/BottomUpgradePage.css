@@ -12,6 +12,16 @@
     justify-content: space-between;
     background: var(--default--bg--upgrade);
     padding: var(--default--padding);
+    transition: 1s;
+    animation: identifier 1s linear; 
+}
+@keyframes identifier {
+    from{
+        height: 30px;
+    }
+    to{
+        height: calc(100% - 50px);
+    }
 }
 .BottomUpgradePage_close{
     display: flex;
@@ -45,6 +55,10 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }
 .BottomUpgradePage_img{
 width: 100%;
@@ -59,4 +73,18 @@ color: var(--default--coins--color);
 font-size: var(--default--FontSize--text);
 font-family: Rowdies;
 font-weight: var(--default--FontWeigth--text);
+}
+.BottomUpgradePage_group_buyied{
+    display: flex;
+    position: absolute;
+    bottom:0;
+    right:0;
+    width: 40px;
+    height: 40px;
+}
+.BottomUpgradePage_group_buyied_img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: darken;
 }

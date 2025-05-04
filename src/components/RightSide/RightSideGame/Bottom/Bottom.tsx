@@ -5,15 +5,15 @@ function Bottom(){
     const [openUpgradePage,setopenUpgradePage]=useState<boolean>(false);
     const handleClose=()=>{
         setopenUpgradePage(false);
-        console.log('tyt');
-        console.log(openUpgradePage);
     }
 return(
-    <div onClick={()=>setopenUpgradePage(true)} className="Bottom_container">
-
-        <p className="Bottom_improvement">Upgrade</p>
-        <p className="Bottom_improvement">^</p>
-        {openUpgradePage && (<BottomUpgradePage onClose={handleClose}/>)}
+    <div className="Bottom_container">
+        <div onClick={()=>setopenUpgradePage(true)} className="Bottom_Click">
+            <p className="Bottom_improvement">Upgrade</p>
+            <p className="Bottom_improvement">^</p>
+        </div>
+            {openUpgradePage && (<BottomUpgradePage onClose={handleClose}/>)}
+        
     </div>
 )
 }

@@ -9,4 +9,5 @@
     padding: var(--default--padding);
     top: calc(56px + 20px);
     right: 0px;
+    overflow: hidden;
 }
